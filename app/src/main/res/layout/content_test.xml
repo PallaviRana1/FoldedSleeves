@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="24dp"
+        android:paddingRight="24dp"
+        android:layout_marginTop="24dp"
+        android:weightSum="1">
+        <TextView
+            android:text="@string/app_name"
+            android:textColor="@color/windowBackground"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView"
+            android:textSize="24sp" />
+
+        <android.support.v7.widget.AppCompatButton
+            android:id="@+id/send_new"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="50dp"
+            android:layout_marginBottom="10dp"
+            android:padding="12dp"
+            android:background="@color/lightPeach"
+            android:text="@string/send_new"/>
+        <android.support.v7.widget.AppCompatButton
+            android:id="@+id/make_call"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:padding="12dp"
+            android:background="@color/lightPeach"
+            android:text="@string/make_call"/>
+        <android.support.v7.widget.AppCompatButton
+            android:id="@+id/open_map"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:padding="12dp"
+            android:background="@color/lightPeach"
+            android:text="@string/open_map"/>
+        <android.support.v7.widget.AppCompatButton
+            android:id="@+id/notify"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:padding="12dp"
+            android:background="@color/lightPeach"
+            android:text="@string/notify"/>
+        <android.support.v7.widget.AppCompatButton
+            android:id="@+id/open_editor"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:padding="12dp"
+            android:background="@color/lightPeach"
+            android:text="@string/open_editor"/>
+
+    </LinearLayout>
+</ScrollView>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#00b698</color>
+    <color name="colorPrimaryDark">#40434f</color>
+
+    <color name="lightTurquoise">#00b698</color>
+    <color name="darkTurquoise">#00857f</color>
+
+    <color name="lightPeach">#f26f62</color>
+    <color name="colorAccent">#f26f62</color>
+
+    <color name="darkPeach">#cc5752</color>
+
+
+    <color name="windowBackground">#2e303d</color>
+    <color name="black_overlay">#ffffff</color>
+
+    <color name="text">#ffffff</color>
+    <color name="textDark">#40434f</color>
+    <color name="secondary_text">#ffffff</color>
+</resources>
